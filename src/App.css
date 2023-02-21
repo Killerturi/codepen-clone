@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  height: 100vh;
+}
+
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 15px;
+  color: white;
+  gap: 3px;
+  padding: 12px;
+}
+
+
+.App-header img {
+  height: 50px;
+  mix-blend-mode: color-dodge;
+}
+
+.top-editor img {
+  height: 20px;
+  mix-blend-mode: color-dodge;
+  border: 1px solid yellow;
+  padding: 2px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.editContainer {
+  display: flex;
+  background-color: #282c34;
+}
+
+.editor {
+  width: 50%;
+  display: flex;
+  border-right: 1px dotted red;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+.top-editor {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  background-color: #282c34;
+  color: azure;
+}
+
+.logo-language {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  color: red;
+  cursor: pointer;
+  background-color: #282c34;
+  border: none;
+  font-size: 15px;
+}
+
+.outPut {
+  margin-top: 0;
+  /* padding-top: 10px; */
+  text-align: center;
+  color: whitesmoke;
+  font-family: 'Times New Roman', Times, serif
+}
+
+
+
+
+.CodeMirror {
+  height: 300px !important;
+  color: #fff;
+  font-size: larged;
+  border-radius: 20px;
+}
+
+.CodeMirror-gutters {
+  background: #1d1e22 !important;
+}
+
+.CodeMirror-scroll {
+  background: #1d1e22;
+}
